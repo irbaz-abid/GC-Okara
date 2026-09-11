@@ -5,7 +5,7 @@
 }
 .top{
     height: 25px;
-    background-color: #31a354;
+    background-color: #166534;
 }
 .logo-border{
     height: 200px;
@@ -37,10 +37,10 @@ nav{
 .searching{
     height: 40px;
     width: 150px;
-    background-color: yellow;
+    background-color:#F0FDF4;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: none;
+    border: 1px solid #86B89A;
     padding-left: 15px;
     font-size: 18px;
 }
@@ -53,7 +53,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: #166534;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -137,8 +137,8 @@ h1{
 .fix{
     height: 650px;
     width: 480px;
-    border-right:2px yellowgreen solid;
-    border-bottom:2px yellowgreen solid;
+    border-right:2px #C9A227 solid;
+    border-bottom:2px #C9A227 solid;
     display: flex;
     justify-content: center;
 }
@@ -167,7 +167,7 @@ a{
      transition: 0.3s;
 }
 a:hover{
-    color: #80d99b;
+    color: #15803D;
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -175,7 +175,7 @@ select {
     transition: 0.3s;
 }
 select:hover{
-    color: #80d99b;
+    color: #15803D;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
 }
@@ -187,7 +187,7 @@ select:hover{
 }
 .past{
     height: 260px;
-    background-color: 	#abc32f;
+    background-color:  #166534;
     color: white;
     display: flex;
     align-items: center;
@@ -197,7 +197,7 @@ select:hover{
     height: 120px;
     width: 200px;
     text-align: center;
-    border-right: 2px black solid;
+    border-right: 2px   #C9A227 solid;
 }
 .cen{
     text-align: center;
@@ -211,7 +211,7 @@ select:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color:azure;
+    background-color: #F0FDF4;
 }
 .img{
     height: 300px;
@@ -311,13 +311,13 @@ select:hover{
      
     display: flex;
     justify-content: space-evenly;
-    background-color:green;
+    background-color:#14532D;
     color: white;
 }
 .footB{
     height: 500px;
     width: 330px;
-    border-right: 2px black solid  ;
+    border-right: 2px #4D7C5A solid  ;
     margin-top: 20px;
 }
 ul{
@@ -360,15 +360,25 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: palegreen;
-    color: black;
+    background-color: #0F3D23;
+    color: #FFFFFF;
 }
 .Test{
     border-right: none;
 }
 .centredata{
-    background-color:beige;
+    background-color:#F7FAF7;
 }
 .boxes{
     background-color:blanchedalmond;
+}
+.info a{
+    color:  #E8F5E9;
+}
+.info a:hover{
+    color: #C9A227;
+}
+/* Footer heading */
+.info h2{
+    color: #FFFFFF;
 }
