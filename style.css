@@ -311,13 +311,13 @@ select:hover{
      
     display: flex;
     justify-content: space-evenly;
-    background-color:#14532D;
-    color: white;
+    background-color:#0B4D2B;
+    color: #F1F5F2;
 }
 .footB{
     height: 500px;
     width: 330px;
-    border-right: 2px #4D7C5A solid  ;
+    border-right: 2px #4F7A60 solid  ;
     margin-top: 20px;
 }
 ul{
@@ -360,8 +360,8 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0F3D23;
-    color: #FFFFFF;
+    background-color: #C9A227;;
+    color: #1F2937;
 }
 .Test{
     border-right: none;
@@ -376,9 +376,12 @@ h2{
     color:  #E8F5E9;
 }
 .info a:hover{
-    color: #C9A227;
+    color:   #D4AF37;
 }
 /* Footer heading */
 .info h2{
-    color: #FFFFFF;
+    color: #F1F5F2;
+}
+.info i{
+    color: #D4AF37;;
 }
