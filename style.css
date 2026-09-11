@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.top{
+    height: 25px;
+    background-color: #31a354;
+}
+.logo-border{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 200px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    background-image: url("clg.png");
+    background-size: cover;
+}
+.data{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+.searching{
+    height: 40px;
+    width: 150px;
+    background-color: yellow;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.select{
+    display: flex;
+}
+.searchIc{
+    height: 45px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+.NexLi{
+   height: 40px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+select{
+    border: none;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+ 
+}
+.hero{
+    height: 800px;
+    
+}
+.pic{
+    height: 720px;
+    background-image: url("harr.jpg");
+    background-size: cover;
+}
+.data2{
+    height: 200px;
+     padding-left: 700px;
+    padding-top: 40px;
+
+}
+.exp{
+    height: 80px;
+    margin-top: 300px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+}
+.centredata{
+    height: 1000px;
+     
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.same{
+    height: 400px;
+    width: 640px;
+     
+}
+.secLi{
+    background-image: url("libr.webp");
+    background-size: cover;
+    border-radius: 20px;
+}
+.third{
+    background-image: url("check.webp");
+    background-size: cover;
+    border-radius: 20px;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Info{
+    height: 650px;
+    display: flex;
+}
+ 
+.fix{
+    height: 650px;
+    width: 480px;
+    border-right:2px yellowgreen solid;
+    border-bottom:2px yellowgreen solid;
+    display: flex;
+    justify-content: center;
+}
+.part1{
+    background-image: url("Partition1.jpg");
+    background-size: cover;
+}
+.part2{
+    background-image: url("Partition2.jpg");
+    background-size: cover;
+}
+.part3{
+    background-image: url("Partition3.jpg");
+    background-size: cover;
+}
+.internal{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+}
+h{
+    font-weight:bolder;
+}
+/*Transition*/
+a{
+     transition: 0.3s;
+}
+a:hover{
+    color: #80d99b;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+select {
+    transition: 0.3s;
+}
+select:hover{
+    color: #80d99b;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+.partBox{
+    transition: transform 0.2s ease;
+}
+.partBox:hover{
+    transform: scale(1.05); 
+}
+.past{
+    height: 260px;
+    background-color: 	#abc32f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.comm{
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    border-right: 2px black solid;
+}
+.cen{
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+    height: 550px;
+    width: 600px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:azure;
+}
+.img{
+    height: 300px;
+    width: 400px;
+    margin-left: 110px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.img1{
+    background-image: url("AntiCurroptionDay.jpg");
+    background-size: cover;
+}
+.img2{
+    background-image: url("BigAcheivemnt.jpg");
+    background-size: cover;
+}
+.img3{
+    background-image: url("retirement.jpg");
+    background-size: cover;
+}
+.img4{
+    background-image: url("Rescueteamvisit.jpg");
+    background-size: cover;
+}
+.img5{
+    background-image: url("Firebrigadevisit.jpg");
+    background-size: cover;
+}
+.img6{
+    background-image: url("PTM.jpg");
+    background-size: cover;
+}
+.img7{
+    background-image: url("WelcomeParty.jpg");
+    background-size: cover;
+}
+.head{
+    height: 100px;
+}
+.data1{
+    margin-top: 20px;
+    text-align: center;
+}
+.LastM{
+    height: 720px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.LastB{
+    height: 700px;
+    width: 600px;
+     
+}
+.PicP{
+    height: 250px;
+    width: 250px;
+     
+    margin-top: 40px;
+    margin-left: 200px;
+    background-image: url("ALI.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.chkS{
+    height: 200px;
+    width: 400px;
+     
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.chk1{
+    background-image: url("admission.jpg");
+    background-size: cover;
+}
+.chk2{
+    background-image: url("Sports.jpg");
+    background-size: cover;
+}
+.chk3{
+    background-image: url("Sch.jpg");
+    background-size: cover;
+}
+.msg{
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.Hmsg{
+    text-align: center;
+    margin-top: 20px;
+}
+.info{
+    height: 550px;
+     
+    display: flex;
+    justify-content: space-evenly;
+    background-color:green;
+    color: white;
+}
+.footB{
+    height: 500px;
+    width: 330px;
+    border-right: 2px black solid  ;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.logDiv{
+    height: 150px;
+    width: 320px;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.Lset{
+    height: 120px;
+    width: 120px;
+     
+}
+.clgL{
+    background-image: url("clgph.png");
+    background-size: cover;
+}
+.footB i{
+    margin-left: 10px;
+    
+}
+#one{
+   margin-left: 40px;
+}
+.copy{
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palegreen;
+    color: black;
+}
+.Test{
+    border-right: none;
+}
+.centredata{
+    background-color:beige;
+}
+.boxes{
+    background-color:blanchedalmond;
+}
